@@ -1,0 +1,73 @@
+.Top{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.Top p{
+    width: 700px;
+}
+.popBtn{
+    border: none;
+    outline: none;
+    padding: 10px 20px;
+    color: white;
+    background-color: navy;
+    border-radius: 20px;
+    cursor: pointer;
+}
+
+
+form{
+    height: 300px;
+    width: 500px;
+    box-shadow: 5px 5px 5px 5px rgba(51, 37, 203, 0.44);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    background-color: navy;
+    
+}
+form h2{
+    color: white;
+    font-size: 24px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.container{
+    height: 100vh;
+    width: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    backdrop-filter: blur(8px);
+    display: none;
+    align-items: center;
+    justify-content: center;
+}
+.showMe{
+    display: flex;
+}
+input{
+    height: 40px;
+    width: 350px;
+    margin-bottom: 20px;
+    border-radius: 20px;
+    padding-left: 15px;
+    outline: none;
+    border: 1px solid silver;
+    background: none;
+}
+input::placeholder{
+    color: white;
+}
+
+.btn{
+    height: 40px;
+    width: 150px;
+    background-color: white;
+    color: navy;
+    border: 1px solid silver;
+    border-radius: 20px; 
+    cursor: pointer;
+}
